@@ -5,7 +5,7 @@ type RouteProps = {
 };
 
 export function generateStaticParams() {
-  return [{ slug: ['123'] }];
+  return [{ slug: ['my-static-page'] }];
 }
 
 export default async function DynamicPage(props: RouteProps) {
